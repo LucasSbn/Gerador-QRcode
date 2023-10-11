@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #333;
+}
+
+h2, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 15px;
+    color: rgb(152, 152, 152);
+}
+
+/*Selecionando a section para ela ocupar a largura toda da tela*/
+.corpo-section {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Ajeitando o css para deixar os itens ao centro da página */
+.section-into {
+    background-color: rgb(83, 213, 83);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+header {
+    padding-top: 20px;
+}
+
+.corpo-principal {
+    background-color: white;
+    border-radius: 15px;
+    width: 420px;
+    height: auto;
+    /* padding: 20px; */
+}
+
+.input-qrcode {
+    padding: 15px 0;
+}
+
+.input-qrcode input {
+    padding: 15px;
+
+    width: 90%;
+    height: 55px;
+
+    border-radius: 5px;
+    border: 2px solid rgb(152, 152, 152);
+    outline: none;
+}
+
+.btn-gerar {
+    padding-bottom: 20px;
+}
+
+.btn-gerar input{
+    width: 90%;
+    height: 55px;
+
+    border-radius: 5px;
+    border: 2px solid rgb(3, 117, 3);
+    background-color: rgb(3, 117, 3);
+    outline: none;
+
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+
+    transition: 1s;
+}
+
+.btn-gerar input:hover {
+    border: rgb(3, 117, 3);
+    box-shadow: 0px 0px 12px rgb(3, 117, 3);
+
+    background-color: rgb(3,117, 3);
+}
