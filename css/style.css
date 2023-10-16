@@ -71,7 +71,7 @@ header {
     padding-bottom: 20px;
 }
 
-.btn-gerar input{
+.btn-gerar button{
     width: 90%;
     height: 55px;
 
@@ -87,10 +87,19 @@ header {
     transition: 1s;
 }
 
-.btn-gerar input:hover {
+.btn-gerar button:hover {
     border: rgb(3, 117, 3);
     box-shadow: 0px 0px 12px rgb(3, 117, 3);
 
     background-color: rgb(3,117, 3);
 }
+
+.qrcode-img {
+    padding-bottom: 25px;
+}
+
+.qrcode-img img {
+
+}
+
 /*  */
